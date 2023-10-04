@@ -10,12 +10,12 @@ const DynamicType = () => {
                         'Full Stack Developer',
                         'Frontend Developer',
                         'Backend Developer']}
-                    loop={5}
+                    loop={10000}
                     cursor
                     cursorStyle='_'
-                    typeSpeed={70}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
+                    typeSpeed={100}
+                    deleteSpeed={140}
+                    delaySpeed={2000}
                 />
             </div>
         </>
