@@ -15,7 +15,7 @@ const Form = () => {
     return (
         <>
             <form onSubmit={sendMail} ref={form}>
-                <h1 className='text-2xl my-8 font-bold text-center'>What &sbquo;s the Project?</h1>
+                <h3 className='text-2xl my-8 font-bold text-center'>What &sbquo;s the Project?</h3>
                 <div>
                     <div className='relative flex my-8 md:my-12 justify-center items-center'>
                         <label className='absolute left-[45px] md:left-[115px] top-[-12px] bg-white px-1'> Name</label>
