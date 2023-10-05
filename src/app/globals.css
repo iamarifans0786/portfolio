@@ -123,7 +123,12 @@
     gap: 1rem;
     font-size: 2rem;
 }
-
+.hero-name-heading{
+    justify-content: left;
+}
+.dynamic-type-custom{
+    margin-top: 12px;
+}
 
 @media (min-width: 768px) {
     .nav_container {
@@ -152,6 +157,7 @@
 @media (min-width: 1024px) {
     .hero-content-sec {
         flex-direction: row;
+        padding: 20px 10px;
         width: 55%;
     }
 

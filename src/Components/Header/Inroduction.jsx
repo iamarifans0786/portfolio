@@ -8,11 +8,13 @@ const Inroduction = () => {
     return (
         <>
             <div>
-                <div>
+                <div className='hero-name-heading'>
                     <h1 className='text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-bold'>Arif Ansari</h1>
                 </div>
                 <div className='text-2xl md:text-[28px] px-7 md:px-0 '>
+                    <div className='dynamic-type-custom'>
                     <DynamicType />
+                    </div>
                     <div className='text-[16px] md:text-lg mt-4'>
                         <h1 className='font-thin'>Web Developer dedicated to design and creative solutions.</h1>
                     </div>
