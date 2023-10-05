@@ -6,7 +6,7 @@ import Links from './Links';
 const Hero = () => {
     return (
         <>
-            <div className='custom-hero-css py-20 overflow-hidden flex flex-col-reverse  gap-12 md:gap-10 md:flex-row flex-wrap items-center justify-center'>
+            <div className='custom-hero-css'>
                 <div className='img-sec text-center profile_pic'>
                 </div>
                 <div className='link-sec'>

@@ -8,7 +8,7 @@ import { SiSkypeforbusiness } from 'react-icons/si'
 const Links = () => {
     return (
         <>
-            <ul className='flex flex-row md:flex-col gap-4 text-2xl lg:text-3xl'>
+            <ul className='hero-links'>
                 <li className='hover:text-[#8fab3a]'><Link href='https://github.com/iamarifans0786'><AiFillGithub /></Link> </li>
                 <li className='hover:text-[#8fab3a]'><Link href='https://www.linkedin.com/in/arif-ansari-865240250/'><FaLinkedinIn /></Link> </li>
                 <li className='hover:text-[#8fab3a]'><Link href='https://www.instagram.com/__a_r_i_f__/?igshid=NzZlODBkYWE4Ng%3D%3D'><GrInstagram /></Link> </li>
