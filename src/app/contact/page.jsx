@@ -15,7 +15,7 @@ const Contact = () => {
       <SectionDivider title={props.title} subTitle={props.subTitle} />
       <div id='contact' className='flex justify-evenly items-center lg:flex-row gap-6 flex-col'>
         <div className='text-center w-[90%] md:w-[60%] lg:w-[45%] gap-6'>
-          <h1 className='text-3xl my-6 font-bold'>Talk to me</h1>
+          <h1 className='text-2xl my-6 font-bold'>Talk to me</h1>
           <div className='flex justify-center gap-8 items-center flex-col'>
             <Email />
             <WhatsApp />
