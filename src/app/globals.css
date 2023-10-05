@@ -105,6 +105,10 @@
     width: 75%;
 }
 
+.custom-hero-css{
+    margin: 10px auto;
+}
+
 .hero-content-sec {
     display: flex;
     flex-direction: column;
@@ -114,7 +118,7 @@
     border: 2px solid #2196F3;
     gap: 1.5rem;
     padding: 20px 0px;
-    margin: 8px 0px;
+    margin: 15px 0px;
 }
 
 .hero-links {
