@@ -10,8 +10,8 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <>
-      <div className='footer-custom'>
-        <div className='w-full py-12 flex justify-evenly  flex-col text-center md:text-left gap-12 md:gap-0 md:flex-row '>
+      <div className=''>
+        <div className='footer-container border-4 w-full items-center flex justify-evenly  flex-col text-center md:text-left gap-12 md:gap-0 md:flex-row '>
           <div className='flex items-center justify-center'>
             <Image priority={true} src={Logo} alt='icon' className='footer-logo' />
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className='mb-6'>
           <h1 className='text-center'> ©2023 Arif Ansari. All rights reserved </h1>
         </div>
       </div>
