@@ -26,7 +26,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h1 className='text-lg font-bold'>Let&#145;s Connect</h1>
+            <h1 className='text-lg font-bold'>Let&#x27;s Connect</h1>
             <ul className='flex gap-6 mt-3 justify-center'>
               <li className='text-center'><Link href='https://github.com/iamarifans0786'><AiFillGithub /></Link> </li>
               <li><Link href='https://www.linkedin.com/in/arif-ansari-865240250/'><FaLinkedinIn /></Link> </li>
