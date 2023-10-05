@@ -22,7 +22,7 @@
 
     50% {
         border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-    }
+    } 
 
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -115,7 +115,6 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    /* border: 2px solid #2196F3; */
     gap: 1.5rem;
     padding: 20px 0px;
     margin: 50px 0px;
