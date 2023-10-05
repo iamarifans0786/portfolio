@@ -107,13 +107,12 @@
 }
 
 .custom-hero-css{
-    margin: 20px 10px;
+    padding: 30px 20px;
 }
 
-.links-hero{
-    display: none;
+.custom-hero-css .img-sec{
+   margin: 13px auto;
 }
-
 
 
 

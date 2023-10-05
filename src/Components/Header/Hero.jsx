@@ -7,12 +7,12 @@ const Hero = () => {
     return (
         <>
             <div className='custom-hero-css py-20 overflow-hidden flex flex-col-reverse  gap-12 md:gap-10 md:flex-row flex-wrap items-center justify-center'>
-                <div className='text-center profile_pic'>
+                <div className='img-sec text-center profile_pic'>
                 </div>
-                <div className='links-hero'>
+                <div className='link-sec'>
                     <Links />
                 </div>
-                <div className='w-[100%] md:w-[40%]'>
+                <div className='intro-sec w-[100%] md:w-[40%]'>
                     <Inroduction />
                 </div>
             </div>
