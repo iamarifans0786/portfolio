@@ -9,12 +9,12 @@ const Navbar = () => {
     const pathName = usePathname()
     return (
         <>
-            <div className='w-full bg-white h-20 px-8 md:px-4 md:flex-row md:justify-evenly hidden justify-between items-center top-0 sticky z-10'>
+            <div className='w-full bg-white h-20 px-8 md:px-4 flex md:justify-evenly justify-between items-center top-0 sticky z-10'>
                 <div>
                     <Link href='/'><h1 className='text-3xl font-bold text-[#8fab3a]'>Portfolio</h1></Link>
                 </div>
-                <ul className='hidden md:flex gap-7  text-gray-400 font-semibold'>
-                    <li className='hover:text-[#8fab3a]'>
+                <ul className=' navBar'>
+                <li className='hover:text-[#8fab3a]'>
                         <Link href='/' className={`link ${pathName === '/' ? 'text-[#8fab3a] font-bold' : ''}`} >Home</Link>
                     </li>
                     <li className='hover:text-[#8fab3a]'>
@@ -33,16 +33,16 @@ const Navbar = () => {
                         <Link href='/contact' className={`link ${pathName === '/contact' ? 'text-[#8fab3a] font-bold' : ''}`}>Contact</Link>
                     </li>
                 </ul>
-                <div className='hover:text-[#8fab3a] md:hidden item-center pl-3 font-bold text-3xl'>
+                {/* <div className='hover:text-[#8fab3a] md:hidden item-center pl-3 font-bold text-3xl'>
                     {
                         toggle ? <button onClick={() => setToggle(!toggle)}><AiOutlineClose /></button>
                             :
                             <button onClick={() => setToggle(!toggle)}><AiOutlineMenu /></button>
                     }
-                </div>
+                </div> */}
 
                 {/* Responsive Menu  */}
-                <ul className={`top-[52px] ${toggle ? 'left-0' : 'left-[-100%]'} gap-5 duration-500 bg-black  text-white font-semibold absolute flex text-center pt-6 mt-[28px] flex-col h-screen w-3/4 md:hidden`}>
+                {/* <ul className={`top-[52px] ${toggle ? 'left-0' : 'left-[-100%]'} gap-5 duration-500 bg-black  text-white font-semibold absolute flex text-center pt-6 mt-[28px] flex-col h-screen w-3/4 md:hidden`}>
                     <li className='hover:text-[#8fab3a]'>
                         <Link href='/' className={`link ${pathName === '/' ? 'text-[#8fab3a] font-bold' : ''}`} >Home</Link>
                     </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     <li className='hover:text-[#8fab3a]'>
                         <Link href='/contact' className={`link ${pathName === '/contact' ? 'text-[#8fab3a] font-bold' : ''}`}>Contact</Link>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </>
     )

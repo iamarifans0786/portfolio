@@ -27,3 +27,14 @@
     }
 }
 
+.navBar{
+display: none;
+}
+
+
+@media (min-width: 768px) {
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        }
+}
