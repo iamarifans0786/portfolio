@@ -10,9 +10,6 @@ const Inroduction = () => {
             <div>
                 <div>
                     <h1 className='text-3xl md:text-4xl lg:text-5xl text-center md:text-left font-bold'>Arif Ansari</h1>
-                    <div className='md:hidden flex mt-5 justify-center '>
-                        <Links />
-                    </div>
                 </div>
                 <div className='text-2xl md:text-[28px] px-7 md:px-0 '>
                     <DynamicType />

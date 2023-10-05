@@ -37,7 +37,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -106,46 +105,7 @@
     width: 75%;
 }
 
-.custom-hero-css {
-    padding-top: 5rem;
-    /* Equivalent to py-20 in Tailwind CSS */
-    overflow: hidden;
-    /* Equivalent to overflow-hidden in Tailwind CSS */
-    display: flex;
-    /* Equivalent to flex in Tailwind CSS */
-    flex-direction: column-reverse;
-    /* Equivalent to flex-col-reverse in Tailwind CSS */
-    gap: 1.5rem;
-    /* Equivalent to gap-12 in Tailwind CSS */
-    justify-content: center;
-    /* Equivalent to justify-center in Tailwind CSS */
-    align-items: center;
-    /* Equivalent to items-center in Tailwind CSS */
 
-}
-
-.custom-hero-css .img-sec {
-    margin: 13px auto;
-}
-
-.hero-links {
-    display: flex;
-    flex-direction: row;
-    /* For screens larger than the 'md' breakpoint */
-    gap: 1rem;
-    /* Adjust the gap value as needed */
-    font-size: 2rem;
-}
-
-.dynamic-type {
-    margin-top: 40px;
-    font-size: 1.5rem;
-    /* Equivalent to text-2xl in Tailwind CSS */
-    color: #8fab3a;
-    /* Equivalent to text-[#8fab3a] in Tailwind CSS */
-    font-weight: 600;
-    /* Equivalent to font-semibold in Tailwind CSS */
-}
 
 @media (min-width: 768px) {
     .nav_container {
@@ -168,26 +128,9 @@
         display: none;
     }
 
-    .custom-hero-css {
-        gap: 2.5rem;
-        /* Equivalent to md:gap-10 in Tailwind CSS */
-        flex-direction: row;
-        /* Equivalent to md:flex-row in Tailwind CSS */
-        flex-wrap: wrap;
-        /* Equivalent to flex-wrap in Tailwind CSS */
-    }
-
-    .hero-links {
-        flex-direction: column;
-    }
-
-    .dynamic-type {
-        font-size: 1.75rem;
-    }
+    
 }
 
 @media (min-width: 1024px) {
-    .hero-links {
-        font-size: 3rem;
-    }
+    
 }
