@@ -143,17 +143,12 @@
     margin: 100px 0px;
 }
 
-.section-devider-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 0.5rem;
-}
 
 .section-devider-line {
     border-top: 4px double #8fab3a;
     width: 200px;
     margin-top: 0.25rem;
-    margin-left: auto;
+    margin: 0px auto;
 }
 
 
@@ -178,10 +173,7 @@
         display: none;
     }
 
-    .section-devider-title {
-        font-size: 28px;
-    }
-
+   
 
 }
 
