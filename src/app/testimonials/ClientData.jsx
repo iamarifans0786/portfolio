@@ -7,7 +7,7 @@ import Image4 from '@/Assets/ashu.jpg'
 export const ClientData = [
     {
         id: 0,
-        image: Image2,
+        image: Image3,
         name: "Prashant Singh",
         position: "Angular.js Developer",
         massage: "Provided creative insight and improvment to the project.",
@@ -22,7 +22,7 @@ export const ClientData = [
 
     {
         id: 2,
-        image: Image3,
+        image: Image2,
         name: "Deepanshu Kumar",
         position: "React.js Developer",
         massage: "Fixed the glitch and made the site easier to use.",
