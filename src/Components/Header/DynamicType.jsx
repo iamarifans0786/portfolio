@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const DynamicType = () => {
     return (
         <>
-            <div className='text-2xl text-[#8fab3a] font-semibold md:text-[28px] dynamic-type'>
+            <div className='text-2xl text-[#8fab3a] font-semibold mt-7 md:text-[28px] dynamic-type'>
                 <Typewriter
                     words={[
                         'Full Stack Developer',
