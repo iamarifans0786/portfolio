@@ -15,7 +15,7 @@ const Footer = () => {
           <div className='flex items-center justify-center'>
             <Image priority={true} src={Logo} alt='icon' className='footer-logo' />
           </div>
-          <div>
+          <div className='imp-links'>
             <h1 className='text-lg font-bold'>Important Links</h1>
             <ul className='text-gray-400 text-sm flex flex-wrap flex-col gap-1 mt-3'>
               <li><Link href='/projects'>Projects</Link> </li>

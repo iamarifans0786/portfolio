@@ -162,9 +162,12 @@
 .footer-custom {
     margin-top: 28px;
     margin-bottom: 15px;
+    padding-top: 28px;
     border: 1px solid red;
 }
-
+.imp-links{
+    margin: 20px auto;
+}
 @media (min-width: 768px) {
     .nav_container {
         justify-content: space-evenly;
