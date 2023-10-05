@@ -138,6 +138,11 @@
 .section-devider-custome{
     margin: 100px 0px;
 }
+.section-devider-title{
+    font-size: 1.5rem;
+  font-weight: bold; 
+  margin-top: 0.5rem; 
+}
 
 
 
@@ -160,6 +165,9 @@
 
     .responsive-menubar {
         display: none;
+    }
+    .section-devider-title{
+        font-size: 2.5rem;
     }
 
 
