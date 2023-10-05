@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Link href='/'><h1 className='text-3xl font-bold text-[#8fab3a]'>Portfolio</h1></Link>
                 </div>
                 <ul className='hidden md:flex gap-7  text-gray-400 font-semibold'>
-                <li className='hover:text-[#8fab3a]'>
+                    <li className='hover:text-[#8fab3a]'>
                         <Link href='/' className={`link ${pathName === '/' ? 'text-[#8fab3a] font-bold' : ''}`} >Home</Link>
                     </li>
                     <li className='hover:text-[#8fab3a]'>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Responsive Menu  */}
-                <ul className={`top-[52px] ${toggle ? 'left-0' : 'left-[-100%]'} gap-5 duration-500 bg-black  text-white font-semibold absolute flex text-center pt-6 mt-[28px] flex-col h-screen w-3/4 md:hidden`}>
+                {/* <ul className={`top-[52px] ${toggle ? 'left-0' : 'left-[-100%]'} gap-5 duration-500 bg-black  text-white font-semibold absolute flex text-center pt-6 mt-[28px] flex-col h-screen w-3/4 md:hidden`}>
                     <li className='hover:text-[#8fab3a]'>
                         <Link href='/' className={`link ${pathName === '/' ? 'text-[#8fab3a] font-bold' : ''}`} >Home</Link>
                     </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     <li className='hover:text-[#8fab3a]'>
                         <Link href='/contact' className={`link ${pathName === '/contact' ? 'text-[#8fab3a] font-bold' : ''}`}>Contact</Link>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </>
     )
