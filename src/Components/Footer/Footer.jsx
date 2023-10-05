@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className='text-lg font-bold'>Important Links</h1>
-            <ul className='text-gray-400 text-sm flex flex-wrap flex-col gap-3 mt-3'>
+            <ul className='text-gray-400 text-sm flex flex-wrap flex-col gap-1 mt-3'>
               <li><Link href='/projects'>Projects</Link> </li>
               <li><Link href='/skills'>Skills</Link> </li>
               <li><Link href='/education'>Qualification</Link> </li>
