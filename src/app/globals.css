@@ -131,8 +131,12 @@
 }
 .dynamic-type-custom{
     margin-top: 35px;
-    /* border: 1px solid red; */
 }
+.footer-logo{
+    width: 250px;
+}
+
+
 
 @media (min-width: 768px) {
     .nav_container {

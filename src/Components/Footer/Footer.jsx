@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='my-8'>
         <div className='w-full py-12 flex justify-evenly  flex-col text-center md:text-left gap-12 md:gap-0 md:flex-row '>
           <div className='flex items-center justify-center'>
-            <Image priority={true} src={Logo} alt='icon' className='w-[250px] bg-transparent' />
+            <Image priority={true} src={Logo} alt='icon' className='footer-logo' />
           </div>
           <div>
             <h1 className='text-lg font-bold'>Important Links</h1>
