@@ -3,7 +3,7 @@ import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa6'
 import { GrInstagram } from 'react-icons/gr'
-import { SiSkypeforbusiness } from 'react-icons/si'
+import { AiOutlineFacebook } from 'react-icons/ai'
 import Logo from '@/Assets/footerlogo1.png'
 import Image from 'next/image'
 
@@ -31,11 +31,11 @@ const Footer = () => {
               <li className='text-center'><Link href='https://github.com/iamarifans0786'><AiFillGithub /></Link> </li>
               <li><Link href='https://www.linkedin.com/in/arif-ansari-865240250/'><FaLinkedinIn /></Link> </li>
               <li><Link href='https://www.instagram.com/__a_r_i_f__/?igshid=NzZlODBkYWE4Ng%3D%3D'><GrInstagram /></Link> </li>
-              <li><Link href='https://www.facebook.com/people/Arif-Ansari/pfbid02hzqjUUkGqwwzN9AG2hwVbeoGncCS1ARqubGquFyrtiL5tKhGTebbZ4doKN9arWNal/?mibextid=ZbWKwL'><SiSkypeforbusiness /></Link> </li>
+              <li><Link href='https://www.facebook.com/people/Arif-Ansari/pfbid02hzqjUUkGqwwzN9AG2hwVbeoGncCS1ARqubGquFyrtiL5tKhGTebbZ4doKN9arWNal/?mibextid=ZbWKwL'><AiOutlineFacebook /></Link> </li>
             </ul>
           </div>
         </div>
-        <div className='mb-6'>
+        <div className='copy-right'>
           <h1 className='text-center'> ©2023 Arif Ansari. All rights reserved </h1>
         </div>
       </div>
