@@ -130,6 +130,11 @@
 .hero-name-heading {
     justify-content: left;
 }
+.hero-name-heading h1{
+    font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind CSS */
+    font-weight: bold;
+    text-align: center;
+}
 
 .dynamic-type-custom {
     margin-top: 35px;
@@ -174,7 +179,10 @@
         display: none;
     }
 
-   
+    .hero-name-heading h1{
+        font-size: 2.25rem; /* Equivalent to md:text-4xl in Tailwind CSS */
+        text-align: center;
+    }
 
 }
 
@@ -188,5 +196,9 @@
     .hero-links {
         flex-direction: column;
         font-size: 35px;
+    }
+    .hero-name-heading h1{
+        font-size: 3rem; /* Equivalent to lg:text-5xl in Tailwind CSS */
+        text-align: left;
     }
 }
