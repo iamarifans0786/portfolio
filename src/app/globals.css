@@ -130,8 +130,10 @@
 .hero-name-heading {
     justify-content: left;
 }
-.hero-name-heading h1{
-    font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind CSS */
+
+.hero-name-heading h1 {
+    font-size: 1.875rem;
+    /* Equivalent to text-3xl in Tailwind CSS */
     font-weight: bold;
     text-align: center;
 }
@@ -156,8 +158,11 @@
     margin: 8px auto;
 
 }
-.footer-custom{
-    margin: 20px auto;
+
+.footer-custom {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    border: 1px solid red;
 }
 
 @media (min-width: 768px) {
@@ -181,8 +186,9 @@
         display: none;
     }
 
-    .hero-name-heading h1{
-        font-size: 2.25rem; /* Equivalent to md:text-4xl in Tailwind CSS */
+    .hero-name-heading h1 {
+        font-size: 2.25rem;
+        /* Equivalent to md:text-4xl in Tailwind CSS */
         text-align: center;
     }
 
@@ -199,8 +205,10 @@
         flex-direction: column;
         font-size: 35px;
     }
-    .hero-name-heading h1{
-        font-size: 3rem; /* Equivalent to lg:text-5xl in Tailwind CSS */
+
+    .hero-name-heading h1 {
+        font-size: 3rem;
+        /* Equivalent to lg:text-5xl in Tailwind CSS */
         text-align: left;
     }
 }
