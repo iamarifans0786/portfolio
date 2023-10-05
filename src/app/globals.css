@@ -156,7 +156,9 @@
     margin: 8px auto;
 
 }
-
+.footer-custom{
+    margin-top: 20px;
+}
 
 @media (min-width: 768px) {
     .nav_container {
