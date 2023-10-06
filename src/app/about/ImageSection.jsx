@@ -19,7 +19,7 @@ const ImageSection = () => {
             my professional identity.
           </p>
           <div className='mt-4'>
-            <h1 className='text-gray-800 mt-6 text-lg'>My Philosophy -</h1>
+            <h1 className='text-gray-800 mt-6 text-lg'>My Philosophy</h1>
             <p className='mt-2'>
               I believe in the power of collaboration and the value of continuous learning.
               I see each project as an opportunity to grow, both professionally and personally.
