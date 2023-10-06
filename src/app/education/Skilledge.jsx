@@ -5,7 +5,8 @@ import Skilledgeicon from '@/Assets/skilledge.png'
 const Skilledge = () => {
     return (
         <>
-            <div className='shadow-lg w-[90%] mx-auto lg:mx-0 lg:w-[45%] p-5 flex flex-col justify-center'>
+            <div data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" 
+            className='shadow-lg w-[90%] mx-auto lg:mx-0 lg:w-[45%] p-5 flex flex-col justify-center'>
                 <div>
                     <h1 className='text-[18px] md:text-[20px] font-semibold text-gray-900'>Instution</h1>
                     <span className='flex justify-left items-center ml-2 mt-1'>

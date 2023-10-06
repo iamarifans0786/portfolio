@@ -1,15 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 import AboutPic from '@/Assets/pic1.jpeg'
-
 const ImageSection = () => {
+
   return (
     <>
       <div className='relative flex flex-col lg:flex-row justify-center'>
         <div className='w-[100%] lg:w-[40%] h-[350px] overflow-hidden flex justify-center items-center'>
-          <Image className='md:hover:scale-105 duration-500 hover:opacity-80 hover:cursor-pointer text-center rounded-3xl' src={AboutPic} alt='pic' width={300} />
+          <Image data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700"
+            className='md:hover:scale-105 duration-500 hover:opacity-80 hover:cursor-pointer text-center rounded-3xl' src={AboutPic} alt='pic' width={300} />
         </div>
-        <div className='w-[100%] lg:w-[55%] font-semibold p-4 mt-4 text-gray-400'>
+        <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700"
+          className='w-[100%] lg:w-[55%] font-semibold p-4 mt-4 text-gray-400'>
           <p>
             Welcome to my portfolio! I am Arif Ansari, a passionate and versatile
             Web Developer with a strong dedication to creativity, innovation, and excellence.

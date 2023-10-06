@@ -15,7 +15,7 @@ const Footer = () => {
           <div className='flex items-center justify-center'>
             <Image priority={true} src={Logo} alt='icon' className='footer-logo' />
           </div>
-          <div className='imp-links'>
+          <div data-aos="zoom-out" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" className='imp-links'>
             <h1 className='text-lg font-bold'>Important Links</h1>
             <ul className='text-gray-400 text-sm flex flex-wrap flex-col gap-1 mt-3'>
               <li><Link href='/projects'>Projects</Link> </li>
@@ -28,7 +28,7 @@ const Footer = () => {
           <div>
             <h1 className='text-lg font-bold'>Let&#x27;s Connect</h1>
             <ul className='flex gap-6 mt-3 justify-center'>
-              <li className='text-center'><Link href='https://github.com/iamarifans0786'><AiFillGithub /></Link> </li>
+              <li><Link href='https://github.com/iamarifans0786'><AiFillGithub /></Link> </li>
               <li><Link href='https://www.linkedin.com/in/arif-ansari-865240250/'><FaLinkedinIn /></Link> </li>
               <li><Link href='https://www.instagram.com/__a_r_i_f__/?igshid=NzZlODBkYWE4Ng%3D%3D'><GrInstagram /></Link> </li>
               <li><Link href='https://www.facebook.com/people/Arif-Ansari/pfbid02hzqjUUkGqwwzN9AG2hwVbeoGncCS1ARqubGquFyrtiL5tKhGTebbZ4doKN9arWNal/?mibextid=ZbWKwL'><AiOutlineFacebook /></Link> </li>

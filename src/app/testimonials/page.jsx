@@ -29,7 +29,7 @@ const Testimonial = () => {
                         ClientData ?
                             ClientData.map(({ id, image, name, position, massage }) => {
                                 return (
-                                    <SwiperSlide key={id}>
+                                    <SwiperSlide data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="700" key={id}>
                                         <div className='flex justify-center items-center flex-col py-9 px-1'>
                                             <Image className='border-4 border-[#8fab3a] p-1 rounded-[50%] overflow-hidden' src={image} width={100} height={100} alt='pic' />
                                             <h1 className='text-2xl font-bold text-gray-700 my-2'>{name}</h1>

@@ -8,7 +8,7 @@ const GoFood = () => {
         <>
             <div className='shadow-lg p-2 pb-6 w-[100%] lg:w-[40%]'>
                 <div className='flex flex-col flex-wrap justify-center items-center gap-3'>
-                    <div className=''>
+                    <div data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" className=''>
                         <Image className=' rounded-2xl h-[180px]'  priority={true}  src={EcomImage} alt='pic' width={300} />
                     </div>
                     <h1 className='text-gray-500 font-bold text-[15px]'>Go-Food</h1>

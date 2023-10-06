@@ -5,7 +5,6 @@ import PythonIcon from '@/Assets/python.png'
 import DjangoIcon from '@/Assets/django.png'
 import DrfIcon from '@/Assets/restapi.png'
 import SqliteIcon from '@/Assets/sqlite.png'
-import SqlIcon from '@/Assets/sql.png'
 import MysqlIcon from '@/Assets/mysql.png'
 import ReduxIcon from '@/Assets/redux.png'
 import Giticon from '@/Assets/git.png'
@@ -14,7 +13,8 @@ import Npmicon from '@/Assets/npm.png'
 const Backend = () => {
     return (
         <>
-            <div className='shadow-lg p-4 pb-6 w-[100%] md:w-[40%]'>
+            <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800"
+            className='shadow-lg p-4 pb-6 w-[100%] md:w-[40%]'>
                 <h1 className='text-2xl text-center font-bold text-gray-900 mb-4'><span> <SiBackendless className='inline mr-2 font-bold text-2xl' /> Backend / Tools</span></h1>
                 <div className='flex justify-center md:justify-evenly md:flex-row flex-col gap-1 mt-3 '>
                     <div className='flex w-[90%] mx-auto md:w-[50%] justify-left items-center overflow-hidden border-solid border-2 border-[#8fab3a] p-1'>
